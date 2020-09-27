@@ -1,7 +1,10 @@
 # How To Create A Github Repository
 
 [Create Repository On Github](#create-repository-on-github)  
-[Install Git](#install-git)
+[Install Git](#install-git)  
+[Create Local Repository](#create-local-repository)  
+[Add Git Remote](#add-git-remote)  
+[Make Changes, Commit, And Push](#make-changes-commit-and-push)
 
 ## Create Repository On Github
 Go to https://github.com and create a new repository.  
