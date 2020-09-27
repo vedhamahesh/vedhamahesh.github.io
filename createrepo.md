@@ -36,6 +36,6 @@ In order to get `(https key)` you have to go to your Github repository and copy 
 ## Make Changes, Commit, And Push
 In order to fully establish the connection to the Github repository, you have to make some changes and push the changes.  
 First, make any changes you want to the folder. They don't have to permanent.  
-Next, type `git add .`. This **stages** all the changes before committing.
+Next, type `git add .`. This stages all the changes before committing.  
 Next, type `git commit -m "(message)"`. Replace `(message)` with a message describing your changes. This will fully establish the changes in the local folder.  
 Finally, you have to push the changes from your local folder to Github. Use `git push origin master` to do this.
