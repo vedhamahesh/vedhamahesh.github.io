@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+/* font-family: 'Varela Round', sans-serif; */
+
+.slide {
+  width: 100vw;
+  height: 65vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slide-target {
+  position: absolute;
+  top: -72px;
+  width: 100vw;
+}
+
+.slide:nth-of-type(2) {
+  height: 100vh;
+  justify-content: center;
+}
+.slide:nth-of-type(odd) {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Slide 1: Main */
+#name {
+  font-family: "Varela Round", sans-serif;
+  font-size: 50px;
+}
+
+#words {
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.word {
+  cursor: pointer;
+  font-size: 30pt;
+  margin: 10px;
+  padding: 10px;
+  background: dodgerblue;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.word:hover {
+  transform: scale(1.1);
+}
+
+#profiles {
+  display: flex;
+}
+#profiles > a {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 50%;
+  box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s, filter 0.3s;
+}
+#profiles > a > img {
+  width: 30px;
+  height: 30px;
+}
+#profiles > a:hover {
+  transform: scale(1.2);
+  box-shadow: none;
+}
+#profiles > a:hover img {
+  filter: invert(100%);
+}
+#profiles > a:nth-of-type(1):hover {
+  background: rgb(230, 50, 50);
+}
+#profiles > a:nth-of-type(2):hover {
+  background: rgb(64, 100, 173);
+}
+#profiles > a:nth-of-type(3):hover {
+  background: rgb(2, 118, 181);
+}
+#profiles > a:nth-of-type(4):hover {
+  background: black;
+}
+
+/* Slide 2: Data */
+.title {
+  font-family: "Varela Round", sans-serif;
+  font-size: 50pt;
+  margin: 20px 0;
+}
+
+#data-wrapper {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: stretch;
+}
+#data-desc {
+  flex: 1;
+  font-family: "Varela Round", sans-serif;
+  font-size: 20pt;
+  margin-left: 10px;
+}
+#data {
+  flex: 1 1;
+}
+
+/* Slide 3: Girl Scouts */
+#scouts-video-wrapper {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: stretch;
+}
+#scouts-desc {
+  flex: 1;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 20pt;
+  margin-right: 10px;
+}
+#scouts-video {
+  flex: 1 1;
+}
+
+/* Slide 4: Code */
+#cube-wrapper {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: stretch;
+}
+#cube-desc {
+  flex: 1;
+  font-family: sans-serif;
+  font-size: 20pt;
+  margin-left: 10px;
+}
+#cube-target {
+  flex: 1 1;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#solve,
+#scramble {
+  cursor: pointer;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30pt;
+  position: absolute;
+  color: white;
+  background: dodgerblue;
+  border: 5px white solid;
+  padding: 5px 10px;
+  transition: transform 0.2s;
+}
+#solve {
+  top: 10%;
+}
+#scramble {
+  bottom: 10%;
+}
+#solve:hover,
+#scramble:hover {
+  transform: scale(1.1);
+}
+#solve:active,
+#scramble:active {
+  transform: none;
+}
