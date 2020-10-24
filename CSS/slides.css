@@ -3,7 +3,6 @@
 
 .slide {
   width: 100vw;
-  height: 65vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -16,6 +15,7 @@
 }
 
 .slide:nth-of-type(2) {
+  position: relative;
   height: 100vh;
   justify-content: center;
 }
@@ -29,22 +29,31 @@
   font-size: 50px;
 }
 
-#words {
-  font-family: "Varela Round", sans-serif;
-  display: flex;
-  align-items: center;
+#name + div {
+  font-family: monospace;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
-.word {
+
+#scroll-links {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.scroll-link {
   cursor: pointer;
+  font-family: "Varela Round", sans-serif;
   font-size: 30pt;
-  margin: 10px;
+  margin: 0 10px;
   padding: 10px;
   background: dodgerblue;
-  border-radius: 10px;
-  transition: transform 0.2s;
+  border-radius: 10px 10px 0 0;
+  min-height: 70px;
+  transition: min-height 0.2s;
 }
-.word:hover {
-  transform: scale(1.1);
+.scroll-link:hover {
+  min-height: 80px;
 }
 
 #profiles {
@@ -86,27 +95,73 @@
   background: black;
 }
 
-/* Slide 2: Data */
+/* Slide 2: Publications */
 .title {
   font-family: "Varela Round", sans-serif;
   font-size: 50pt;
   margin: 20px 0;
 }
 
-#data-wrapper {
+#publ-wrapper {
   height: 100%;
-  padding: 20px;
+  padding: 0 20px 20px;
   display: flex;
   align-items: stretch;
 }
-#data-desc {
-  flex: 1;
+
+.publ {
+  position: relative;
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 20px 10px 10px;
+  margin: 10px;
+}
+
+.publ:hover > a {
+  opacity: 1;
+}
+.publ > a {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  top: 10px;
+  opacity: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.2s, background 0.2s;
+}
+.publ > a > img[alt="Popout"] {
+  width: 20px;
+}
+.publ > a:hover {
+  background: rgb(170, 170, 170);
+}
+
+.publ img[alt="Cover"] {
+  float: left;
+  width: 60px;
+  margin: 0 10px 0 0;
+}
+.publ:nth-of-type(1) img[alt="Cover"] {
+  width: 65px;
+}
+.publ:nth-of-type(2) img[alt="Cover"] {
+  width: 90px;
+}
+.publ:nth-of-type(3) img[alt="Cover"] {
+  width: 65px;
+}
+.publ > div:nth-of-type(1) {
   font-family: "Varela Round", sans-serif;
   font-size: 20pt;
-  margin-left: 10px;
+  margin-bottom: 10px;
 }
-#data {
-  flex: 1 1;
+.publ > div:nth-of-type(2) {
+  font-family: sans-serif;
+  font-size: 15pt;
 }
 
 /* Slide 3: Girl Scouts */
@@ -118,10 +173,13 @@
 }
 #scouts-desc {
   flex: 1;
-  text-align: right;
   font-family: sans-serif;
   font-size: 20pt;
   margin-right: 10px;
+}
+#scouts-desc > b {
+  display: block;
+  margin-top: 20px;
 }
 #scouts-video {
   flex: 1 1;

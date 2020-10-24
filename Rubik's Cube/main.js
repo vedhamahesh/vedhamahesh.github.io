@@ -57,6 +57,7 @@ function mouseDragged() {
   if (rotate) {
     Xrotate = mouseX + xOffset;
     Yrotate = mouseY + yOffset;
+    redraw();
   }
 
 }

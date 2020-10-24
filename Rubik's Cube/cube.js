@@ -224,6 +224,8 @@ class Cube {
           break;
 
       }
+    } else {
+      noLoop();
     }
 
   }
@@ -632,6 +634,7 @@ class Cube {
       }
 
     }
+    loop();
 
   }
 
@@ -2972,6 +2975,7 @@ class Cube {
     this.middleEdges();
     this.OLL(testOLL);
     this.PLL(testPLL);
+    loop();
 
   }
 

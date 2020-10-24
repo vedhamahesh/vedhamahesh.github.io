@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "Silver Award",
+      "description": "EDIT HERE: Girl Scouts Silver Award Description",
+      "link": "https://sites.google.com/site/technightout/",
+      "imageURL": "https://sites.google.com/site/technightout/_/rsrc/1467050510782/home/DashAndDot.jpg?height=266&width=400"
+    },
+    {
+      "title": "Gold Award",
+      "description": "EDIT HERE: Girl Scouts Gold Award Description",
+      "link": "https://sites.google.com/view/vedhagirlscouts/home",
+      "imageURL": "https://lh5.googleusercontent.com/wru-3TftpK_vcbUCvDPw-cs_dtkTrQtO2Hck6S-msvfgwJSCO0RPzBN62SaUKmbCb9S3ZtOqbA2D8AY_b_tBkjwPitf2kdsBqDPftkozpXTIjOVaw2w7=w773"
+    },
+    {
+      "title": "Presidential Volunteer Service Award",
+      "description": "EDIT HERE: Presiential Award Description",
+      "link": "EDIT HERE: Presiential Award Link To Website",
+      "imageURL": "EDIT HERE: Presiential Award Link To Background Image"
+    },
+    {
+      "title": "Rubik's Cube",
+      "description": "A Rubik's Cube simulation that can scramble and solve a Rubik's Cube.",
+      "link": "https://vedhamahesh.tk/Rubiks-Cube",
+      "imageURL": "https://cdn.discordapp.com/attachments/741402710581969019/759950113505673227/unknown.png"
+    },
+    {
+      "title": "My Dog's Website",
+      "description": "CTY Intro To Web Design project.",
+      "link": "https://vedhamahesh.tk/CTY-IntroToWebDesign/",
+      "imageURL": "https://vedhamahesh.tk/CTY-IntroToWebDesign/Images/AdorableWaffles.jpg"
+    }
+  ]
+}
