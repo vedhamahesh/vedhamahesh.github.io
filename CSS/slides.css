@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 /* font-family: 'Varela Round', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 /* font-family: 'Noto Sans', sans-serif; */
 
 .slide {
@@ -142,7 +142,7 @@
   width: 20px;
 }
 .publ > a:hover {
-  background: rgb(170, 170, 170);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .publ img[alt="Cover"] {
@@ -169,24 +169,45 @@
 }
 
 /* Slide 3: Girl Scouts */
-#scouts-video-wrapper {
-  height: 100%;
-  padding: 0 20px 20px 20px;
-  display: flex;
-  align-items: stretch;
-}
-#scouts-desc {
+#scouts-wrapper {
   flex: 1;
-  font-family: 'Noto Sans', sans-serif;
-  margin-right: 10px;
-}
-#scouts-desc > b {
-  display: block;
-  margin: 20px 0 5px 0;
-  font-size: 20pt;
-}
-#scouts-desc > div {
+  font-family: "Noto Sans", sans-serif;
+  padding: 0 70px 30px 30px;
   font-size: 15pt;
+}
+.scouts-award {
+  position: relative;
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.scouts-award > b {
+  display: block;
+  font-size: 20pt;
+  margin-bottom: 5px;
+}
+
+.scouts-award:hover > a {
+  opacity: 1;
+}
+.scouts-award > a {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  top: 10px;
+  opacity: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.2s, background 0.2s;
+}
+.scouts-award > a > img[alt="Popout"] {
+  width: 20px;
+}
+.scouts-award > a:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 /* Slide 4: Code */
@@ -198,7 +219,7 @@
 }
 #cube-desc {
   flex: 1;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 15pt;
   margin-left: 10px;
 }
