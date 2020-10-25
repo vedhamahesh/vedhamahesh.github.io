@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chewy&family=Varela+Round&display=swap");
 /* font-family: 'Varela Round', sans-serif; */
-/* font-family: 'Chewy', cursive; */
 
 #navbar {
   position: fixed;
@@ -17,6 +16,8 @@
   font-family: "Varela Round", sans-serif;
   font-size: 15pt;
   padding: 0 20px;
+  color: white;
+  text-decoration: none;
   display: flex;
   align-items: center;
   transition: background 0.2s;
@@ -24,18 +25,12 @@
 .navel:hover,
 .nav-select {
   background: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
 }
 
 #logo {
   cursor: pointer;
-  font-size: 30pt;
-  font-family: "Chewy", cursive;
-  padding: 10px 20px;
+  height: 72px;
+  padding: 15px 20px;
   border-right: 3px solid rgba(0, 0, 0, 0.2);
-  text-shadow: 4px 4px rgba(0, 0, 0, 0.2);
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }

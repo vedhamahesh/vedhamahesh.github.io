@@ -2,21 +2,21 @@
   "projects": [
     {
       "title": "Silver Award",
-      "description": "EDIT HERE: Girl Scouts Silver Award Description",
+      "description": "I helped teach kids about Tech at the LCE Tech Night.",
       "link": "https://sites.google.com/site/technightout/",
       "imageURL": "https://sites.google.com/site/technightout/_/rsrc/1467050510782/home/DashAndDot.jpg?height=266&width=400"
     },
     {
       "title": "Gold Award",
-      "description": "EDIT HERE: Girl Scouts Gold Award Description",
+      "description": "I helped special needs children at Sanskruthi Shikar.",
       "link": "https://sites.google.com/view/vedhagirlscouts/home",
-      "imageURL": "https://lh5.googleusercontent.com/wru-3TftpK_vcbUCvDPw-cs_dtkTrQtO2Hck6S-msvfgwJSCO0RPzBN62SaUKmbCb9S3ZtOqbA2D8AY_b_tBkjwPitf2kdsBqDPftkozpXTIjOVaw2w7=w773"
+      "imageURL": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/39055249_247302582565751_8790825700085989376_n.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=Ijzn7Wjr5e0AX-fByOS&_nc_ht=scontent-sjc3-1.xx&oh=a1e994806796ff0e3ea507f681f82478&oe=5FBA5DD8"
     },
     {
-      "title": "Presidential Volunteer Service Award",
-      "description": "EDIT HERE: Presiential Award Description",
-      "link": "EDIT HERE: Presiential Award Link To Website",
-      "imageURL": "EDIT HERE: Presiential Award Link To Background Image"
+      "title": "Presidential Award",
+      "description": "An award I got for over 250 hours of volunteering!",
+      "link": "/presaward.html",
+      "imageURL": "/Images/presaward1.jpg"
     },
     {
       "title": "Rubik's Cube",
@@ -26,7 +26,7 @@
     },
     {
       "title": "My Dog's Website",
-      "description": "CTY Intro To Web Design project.",
+      "description": "This is my first website!",
       "link": "https://vedhamahesh.tk/CTY-IntroToWebDesign/",
       "imageURL": "https://vedhamahesh.tk/CTY-IntroToWebDesign/Images/AdorableWaffles.jpg"
     }

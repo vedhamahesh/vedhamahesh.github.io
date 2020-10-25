@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 /* font-family: 'Varela Round', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
 
 .slide {
   width: 100vw;
@@ -26,7 +28,7 @@
 /* Slide 1: Main */
 #name {
   font-family: "Varela Round", sans-serif;
-  font-size: 50px;
+  font-size: 40pt;
 }
 
 #name + div {
@@ -48,6 +50,8 @@
   margin: 0 10px;
   padding: 10px;
   background: dodgerblue;
+  color: white;
+  text-decoration: none;
   border-radius: 10px 10px 0 0;
   min-height: 70px;
   transition: min-height 0.2s;
@@ -98,7 +102,7 @@
 /* Slide 2: Publications */
 .title {
   font-family: "Varela Round", sans-serif;
-  font-size: 50pt;
+  font-size: 40pt;
   margin: 20px 0;
 }
 
@@ -106,6 +110,7 @@
   height: 100%;
   padding: 0 20px 20px;
   display: flex;
+  flex-direction: column;
   align-items: stretch;
 }
 
@@ -142,7 +147,6 @@
 
 .publ img[alt="Cover"] {
   float: left;
-  width: 60px;
   margin: 0 10px 0 0;
 }
 .publ:nth-of-type(1) img[alt="Cover"] {
@@ -156,33 +160,33 @@
 }
 .publ > div:nth-of-type(1) {
   font-family: "Varela Round", sans-serif;
-  font-size: 20pt;
+  font-size: 18pt;
   margin-bottom: 10px;
 }
 .publ > div:nth-of-type(2) {
-  font-family: sans-serif;
-  font-size: 15pt;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13pt;
 }
 
 /* Slide 3: Girl Scouts */
 #scouts-video-wrapper {
   height: 100%;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   display: flex;
   align-items: stretch;
 }
 #scouts-desc {
   flex: 1;
-  font-family: sans-serif;
-  font-size: 20pt;
+  font-family: 'Noto Sans', sans-serif;
   margin-right: 10px;
 }
 #scouts-desc > b {
   display: block;
-  margin-top: 20px;
+  margin: 20px 0 5px 0;
+  font-size: 20pt;
 }
-#scouts-video {
-  flex: 1 1;
+#scouts-desc > div {
+  font-size: 15pt;
 }
 
 /* Slide 4: Code */
@@ -194,8 +198,8 @@
 }
 #cube-desc {
   flex: 1;
-  font-family: sans-serif;
-  font-size: 20pt;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15pt;
   margin-left: 10px;
 }
 #cube-target {

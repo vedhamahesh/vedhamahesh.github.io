@@ -19,7 +19,7 @@ var rotate = false;
 
 function setup() {
 
-  canvas = createCanvas(windowWidth / 2, 450, WEBGL);
+  canvas = createCanvas(windowWidth / 2, 600, WEBGL);
   canvas.parent("#cube-target");
   rectMode(CENTER);
 
