@@ -22,7 +22,7 @@
   justify-content: center;
 }
 .slide:nth-of-type(odd) {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 /* Slide 1: Main */
@@ -32,7 +32,7 @@
 }
 
 #name + div {
-  font-family: monospace;
+  font-family: "Noto Sans", sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -169,7 +169,7 @@
 }
 
 /* Slide 3: Girl Scouts */
-#scouts-video-wrapper {
+#scouts-image-wrapper {
   height: 100%;
   padding: 0 20px 20px 20px;
   display: flex;
@@ -178,7 +178,7 @@
 #scouts-desc {
   flex: 1;
   font-family: 'Noto Sans', sans-serif;
-  margin-right: 10px;
+  margin-right: 20%;
 }
 #scouts-desc > b {
   display: block;
@@ -187,6 +187,9 @@
 }
 #scouts-desc > div {
   font-size: 15pt;
+}
+#scouts-image-wrapper>img {
+  flex: 1;
 }
 
 /* Slide 4: Code */

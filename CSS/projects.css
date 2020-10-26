@@ -19,7 +19,7 @@
   margin: 20px 0 0 20px;
   color: white;
   text-decoration: none;
-  font-family: "Varela Round", sans-serif;
+  font-family: 'Noto Sans', 'Varela Round', 'sans-serif';
   overflow: hidden;
   display: flex;
   flex-direction: column;
