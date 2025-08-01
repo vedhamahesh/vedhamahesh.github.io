@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vedha Mahesh</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    rel="nofollow" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Site Title at Top Left -->
+  <div class="site-title">VEDHA MAHESH</div>
+
+  <!-- Transparent Sticky Navigation Bar -->
+  <div class="navbar" id="navbar">
+    <a onclick="scrollToSection('about')" id="nav-home">ABOUT ME</a>
+    <a onclick="scrollToSection('projects')" id="none-home">PROJECTS</a>
+    <a onclick="scrollToSection('experiences')" id="none-home">EXPERIENCES</a>
+    <a onclick="scrollToSection('contact')" id="none-home">CONTACT</a>
+  </div>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div id="first-container">
+      <div id="headshot">
+        <img src="assets/barcelona.JPG" id="barcelona-jpg" width="300" height="380">
+      </div>
+      <div id="first">
+        HI! MY NAME IS VEDHA
+      </div>
+      <div class="scroll-hint">(keep scrolling!)</div>
+    </div>
+  </section>
+
+  <!-- About Me Section  -->
+  <section id="about" class="section">
+
+    <div class="content">
+      <div class="section-title">ABOUT ME</div>
+      <!-- About Me Text -->
+      <div class="about-text">
+        <ul>
+          <li>I'm a recent graduate from <u>Cornell University</u> with a B.S.in Biometry and Statistics and an M.Eng.
+            in
+            Computer Science</li>
+          <li>Professionally, I'm interested in <b>Data Science</b>, <b>Machine Learning</b>, and <b>Product
+              Management</b>.</li>
+          <li>Excited by opportunities at the intersection of data, strategy, and product.</li>
+          <li>Outside of work, I love to read, watch horror movies, go running, and play with my dog Waffles!</li>
+        </ul>
+      </div>
+
+      <!-- Tools & Technologies Section -->
+      <div class="tech-section">
+        <div class="tech-category">
+          <h3 class="category-title">Programming Languages</h3>
+          <div class="tech-tags">
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Java</div>
+            <div class="skill-tag">R</div>
+            <div class="skill-tag">SQL</div>
+            <div class="skill-tag">OCaml</div>
+            <div class="skill-tag">Swift</div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3 class="category-title">Tools & Platforms</h3>
+          <div class="tech-tags">
+            <div class="skill-tag">Git</div>
+            <div class="skill-tag">Docker</div>
+            <div class="skill-tag">AWS</div>
+            <div class="skill-tag">Tableau</div>
+            <div class="skill-tag">Jira</div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3 class="category-title">Libraries & Frameworks</h3>
+          <div class="tech-tags">
+            <div class="skill-tag">PyTorch</div>
+            <div class="skill-tag">Pandas</div>
+            <div class="skill-tag">Scikit-Learn</div>
+            <div class="skill-tag">NumPy</div>
+            <div class="skill-tag">Matplotlib</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiences Section -->
+  <!-- Experiences Section -->
+  <section id="experiences" class="section">
+    <div class="content">
+      <div class="section-title">EXPERIENCES</div>
+      <ul>
+        <span id="experience-title"><b><a href="https://www.trlm.com/" target="_blank" rel="noopener noreferrer">Cornell
+              AI Innovation Lab</a> — September 2024 - May 2025 — Ithaca, NY</b></span>
+        <li>Built an AI-powered faculty expertise search chatbot using Python, OpenAI APIs, and RAG pipelines on
+          300+ CVs and abstracts.</li>
+        <li>Developed a student enrollment compliance assistant using institutional policy data, reducing
+          administrative burden for university staff.</li>
+        <div class="experience-tools">
+          <span class="tools-label">Tools used:</span>
+          <div class="tools-tags">
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">AWS</div>
+            <div class="skill-tag">Git</div>
+            <div class="skill-tag">Docker</div>
+          </div>
+        </div>
+
+        <br>
+        <span id="experience-title"><b><a href="https://www.fidelity.com/" target="_blank"
+              rel="noopener noreferrer">Deloitte Consulting</a> — June 2024 - August 2024 — New York City, NY</b></span>
+        <li>Supported a large-scale data modernization project by leading cross-functional workshops with 10+
+          client departments to gather and document key reporting and system requirements.</li>
+        <li>Designed and maintained a Reporting Catalog of 1,200+ reports, enabling clear data source mapping and
+          improving reporting accuracy and efficiency across the organization.</li>
+        <li>Conducted detailed analysis of business requirements and effectively communicated actionable insights
+          to management, leading to a 20% increase in operational efficiency.</li>
+        <div class="experience-tools">
+          <span class="tools-label">Tools used:</span>
+          <div class="tools-tags">
+            <div class="skill-tag">Excel</div>
+            <div class="skill-tag">Tableau</div>
+            <div class="skill-tag">SQL</div>
+          </div>
+        </div>
+
+
+        <br>
+        <span id="experience-title"><b><a href="https://cornelldata.science/" target="_blank"
+              rel="noopener noreferrer">Privacera</a> — June 2023 - August 2023 — Fremont, CA</b></span>
+        <li>Built a customer support chatbot with contextual memory, dynamic source citation using 600+ knowledge
+          based internal articles and FAQs reducing resolution time by 85%.</li>
+        <div class="experience-tools">
+          <span class="tools-label">Tools used:</span>
+          <div class="tools-tags">
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Git</div>
+            <div class="skill-tag">Docker</div>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="content">
+      <div class="section-title">PROJECTS</div>
+      <div class="projects-container">
+
+        <!-- GWAS Exploration Project -->
+        <div class="project-flip-card">
+          <div class="project-flip-inner">
+            <div class="project-flip-front">
+              <img src="assets/dna.jpg" alt="GWAS Exploration" class="project-img">
+              <h3>GWAS Exploration</h3>
+            </div>
+            <div class="project-flip-back">
+              <div class="project-description">
+                <p>Analyzed genomic variants to uncover trait associations using statistical models and visualizations.
+                </p>
+                <a href="https://github.com/vedhamahesh/gwas_analysis" target="_blank" rel="noopener noreferrer"
+                  class="project-link">View Project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Command Line Monopoly -->
+        <div class="project-flip-card">
+          <div class="project-flip-inner">
+            <div class="project-flip-front">
+              <img src="assets/monopoly.webp" alt="Command Line Monopoly" class="project-img">
+              <h3>Command Line Monopoly</h3>
+            </div>
+            <div class="project-flip-back">
+              <div class="project-description">
+                <p>Built a text-based Monopoly game in Python, complete with game logic, player turns, and asset
+                  tracking.</p>
+                <a href="https://github.com/vedhamahesh/CLI-Monopoly/tree/main" target="_blank"
+                  rel="noopener noreferrer" class="project-link">View Project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Smoking Data Analysis -->
+        <div class="project-flip-card">
+          <div class="project-flip-inner">
+            <div class="project-flip-front">
+              <img src="assets/smokin.jpg" alt="Smoking Data Analysis" class="project-img">
+              <h3>Smoking Data Analysis</h3>
+            </div>
+            <div class="project-flip-back">
+              <div class="project-description">
+                <p>Explored public health data to model the effects of smoking on lung capacity and other risk factors.
+                </p>
+                <a href="https://github.com/vedhamahesh/smoking-data-analysis" target="_blank" rel="noopener noreferrer"
+                  class="project-link">View Project →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="content">
+      <div class="section-title">LETS GET IN TOUCH</div>
+      <br><br>
+
+      <a href="assets/Vedha_Mahesh_resume.pdf" target="_blank" rel="noopener noreferrer">
+        <img src="assets/resume.png" alt="Resume" style="height:20px; vertical-align:middle; margin-right:5px;">
+        RESUME
+      </a> ·
+
+      <a href="https://www.linkedin.com/in/vedha-m/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/linkedin.png" alt="LinkedIn" style="height:20px; vertical-align:middle; margin-right:5px;">
+        LINKEDIN
+      </a> ·
+
+      <a href="https://github.com/vedhamahesh/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/github.png" alt="GitHub" style="height:20px; vertical-align:middle; margin-right:5px;">
+        GITHUB
+      </a> ·
+
+      <a href="mailto:vedha.mahesh@gmail.com" target="_blank" rel="noopener noreferrer">
+        <img src="assets/email.png" alt="Email" style="height:20px; vertical-align:middle; margin-right:5px;">
+        Email
+      </a>
+
+      <br><br>
+
+      <br><br>
+    </div>
+  </section>
+</body>
+
+</html>
